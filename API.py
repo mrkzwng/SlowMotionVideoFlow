@@ -16,7 +16,7 @@ os.makedirs(temp_folder)
 
 checkpoint_file = 'models/model'
 
-#force cpu, if your into that
+#force cpu, if you are into that
 # os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 # os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 

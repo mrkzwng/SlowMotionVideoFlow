@@ -144,5 +144,5 @@ class VideoUtils:
         self.delete_temp_folder(temp_slow_frames_folder)
 
 # DO YOU TEST
-# videoUtils = VideoUtils('tmp/', 'models/model')
-# videoUtils.slow_down_video('videos/fencing/v_Fencing_g01_c02.avi', 'output_v_Fencing_g01_c02.avi')
+videoUtils = VideoUtils('tmp/', 'models/model')
+videoUtils.slow_down_video('videos/fencing/v_Fencing_g01_c02.avi', 'output_v_Fencing_g01_c02.avi')
